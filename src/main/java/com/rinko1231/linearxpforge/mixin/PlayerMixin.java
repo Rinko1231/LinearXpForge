@@ -10,7 +10,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 @Mixin(Player.class)
 public abstract class PlayerMixin {
 
-    // 修改 getXpNeededForNextLevel 方法，固定返回100经验点
+    // 修改 getXpNeededForNextLevel 方法
     @Inject(method = "getXpNeededForNextLevel", at = @At("HEAD"), cancellable = true)
     public void modifyXpNeededForNextLevel(CallbackInfoReturnable<Integer> cir) {
         // 强制设置每次升级
