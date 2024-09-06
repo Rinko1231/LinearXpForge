@@ -14,8 +14,6 @@ public abstract class PlayerMixin {
     @Inject(method = "getXpNeededForNextLevel", at = @At("HEAD"), cancellable = true)
     public void modifyXpNeededForNextLevel(CallbackInfoReturnable<Integer> cir) {
         // 强制设置每次升级
-        cir.setReturnValue(LinearXpConfig.getConfigXpPerLevel());
-        cir.cancel();
-
+        cir.setReturnValue(LinearXpConfig.XpPerLevel.get());
     }
 }
