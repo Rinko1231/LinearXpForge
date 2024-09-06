@@ -31,7 +31,7 @@ displayName="Linear Xp Forge" #mandatory
 # A text field displayed in the mod UI
 #credits="Thanks for this example mod goes to Java" #optional
 # A text field displayed in the mod UI
-authors="rinko1231" #optional
+authors="rinko1231, KL_jiana" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='linearxpforge.'
 
