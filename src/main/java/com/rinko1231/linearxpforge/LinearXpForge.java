@@ -3,14 +3,10 @@ package com.rinko1231.linearxpforge;
 import com.mojang.logging.LogUtils;
 import com.rinko1231.linearxpforge.config.LinearXpConfig;
 
-import net.minecraft.world.effect.MobEffect;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.eventbus.api.IEventBus;
+
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.RegistryObject;
+
 import org.slf4j.Logger;
 
 // 使用 @Mod 注解，并指定你的模组 ID
