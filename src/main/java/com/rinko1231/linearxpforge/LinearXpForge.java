@@ -9,7 +9,7 @@ import net.minecraftforge.fml.common.Mod;
 
 import org.slf4j.Logger;
 
-// 使用 @Mod 注解，并指定你的模组 ID
+
 @Mod("linearxpforge")
 public class LinearXpForge {
 
