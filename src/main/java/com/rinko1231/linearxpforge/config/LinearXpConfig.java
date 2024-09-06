@@ -23,8 +23,8 @@ public class LinearXpConfig
         BUILDER.push("linear Xp per Level");
 
         XpPerLevel = BUILDER
-                .comment("linear Xp per Level, default is 10")
-                .defineInRange("XpPerLevel", 10, 0, Integer.MAX_VALUE);
+                .comment("linear Xp per Level, default is 50, min is 1")
+                .defineInRange("XpPerLevel", 50, 1, Integer.MAX_VALUE);
 
         CONFIG = BUILDER.build();
     }
