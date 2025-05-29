@@ -79,6 +79,7 @@ configurations {
 }
 
 dependencies {
+    implementation "curse.maven:irons-rpg-tweaks-871799:6500468"
 //    implementation "curse.maven:spice-of-life-valheim-reforged-1257571:6554850"
 }
 
